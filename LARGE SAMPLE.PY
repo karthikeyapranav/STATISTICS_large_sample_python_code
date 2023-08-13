@@ -25,7 +25,7 @@ if len(x)<j:
  z3 = ((x_bar - mu_null) / ( s / math.sqrt(n)))
  print(z3,'z claculated value')
 elif len(x)>j:
- z4 = ((x_bar - mu_null) / (s / math.sqrt(n)),)
+ z4 = ((x_bar - mu_null) / (s / math.sqrt(n)))
  print(z4, 'z claculated value')
 if z3 < table:
  print('accept null hypothsis')
